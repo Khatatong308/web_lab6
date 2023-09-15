@@ -52,7 +52,7 @@ const travellist=ref([
         <div class="row">
           <div class="col" >
               <div class="card">
-                <img src="src/assets/pic.jpg" class="card-img-top" alt="...">
+                <img src="../src/assets/pic.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Iceland</h5>
                         <a class="btn btn-primary" @click="booking('Iceland')">ยืนยันการจอง</a>
@@ -61,7 +61,7 @@ const travellist=ref([
         </div>
           <div class="col">
             <div class="card">
-                <img src="src/assets/forrest.jpg" class="card-img-top" alt="...">
+                <img src="../src/assets/forrest.jpg" class="card-img-top" alt="...">
               <div class="card-body">
               <h5 class="card-title">Greedland</h5>
                         <a class="btn btn-primary" @click="booking('Greedland')">ยืนยันการจอง</a>
@@ -74,7 +74,7 @@ const travellist=ref([
   <div class="row">
     <div class="col">
       <div class="card" >
-          <img src="src/assets/farly.jpg" class="card-img-top" alt="...">
+          <img src="../src/assets/farly.jpg" class="card-img-top" alt="...">
   <div class="card-body">
           <h5 class="card-title">fairyland</h5>
           <a class="btn btn-primary" @click="booking('fairyland')">ยืนยันการจอง</a>
@@ -83,7 +83,7 @@ const travellist=ref([
     </div>
     <div class="col">
       <div class="card">
-            <img src="src/assets/happyland.jpg" class="card-img-top" alt="...">
+            <img src="../src/assets/happyland.jpg" class="card-img-top" alt="...">
   <div class="card-body">
             <h5 class="card-title">land of happiness</h5>
      <a class="btn btn-primary" @click="booking('land of happiness')">ยืนยันการจอง</a>
@@ -92,7 +92,7 @@ const travellist=ref([
     </div>
     <div class="col">
       <div class="card">
-            <img src="src/assets/cafe.jpg" class="card-img-top" alt="...">
+            <img src="../src/assets/cafe.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">sky island</h5>   
             <a class="btn btn-primary" @click="booking('sky island')">ยืนยันการจอง</a>
